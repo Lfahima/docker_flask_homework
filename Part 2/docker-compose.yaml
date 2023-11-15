@@ -1,0 +1,14 @@
+version: '1'
+services:
+  flask_app_1:             # Build flask 1 application and set it to port 8080 
+    build: ./flask1
+    ports:
+      - "8080:8080"
+    volumes:               # Mount the flask 1 directory into /app
+      - ./flask1:/app
+  flask_app_2:             # Build flask 2 application and set it to port 8081
+    build: ./flask2
+    ports:
+      - "8081:8081"
+    volumes:               # Mount the flask 2 directory into /app
+      - ./flask2:/app
