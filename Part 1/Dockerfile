@@ -7,4 +7,5 @@ CMD ["python", "app.py"]               # Run the flask app
 
 
 
-# Docker build command: docker build -t docker_example_1 .     
+# Docker build command: docker build -t docker_example_1 .    
+# Docker run command: docker run -d -p 5001:5000 docker_example_1
