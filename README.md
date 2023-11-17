@@ -10,7 +10,7 @@ The docker run command I used was `docker run -d -p 5001:5000 docker_example_1`
 
 ## Part 1:  2. Documentation:
 ### Document the steps you took to Dockerize the Flask application.
-I created a docker file that uses port 5000 to run the application, from there I used the docker build and docker run commands to docerize the application. 
+I created a docker file that uses port 5000 to run the application, from there I used the docker build and docker run commands to dockerize the application. 
 
 
 ## Part 2:  2. Dockerizing with Docker Compose:
