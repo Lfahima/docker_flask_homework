@@ -18,7 +18,7 @@ I created a docker file that uses port 5000 to run the application, from there I
 #### Document the specific commands used to manage the Docker Compose lifecycle.
 `docker-compose up`
 
-## Part2:  3. Documentation:
+## Part 2:  3. Documentation:
 ### Document the process of setting up and running the two Flask applications with Docker Compose.
 I created docker files for both applications, from there I changed the ports to be used from 5000 and 5001 to 8080 and 8081. 
 I then created a docker compose file to build and run the applications. 
